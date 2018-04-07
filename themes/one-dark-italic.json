@@ -7,8 +7,8 @@
     // Base Color
     "focusBorder": "#FFFFFF33",
     "foreground": "#B3BEC3",
-    "widget.shadow": "#FFFFFF0A",
-    "selection.background": "#FFFFFF33",
+    "widget.shadow": "#000000CC",
+    "selection.background": "#FFFFFF33", //styles input box text when selected
     "descriptionForeground": "#B3BEC3AA",
     "errorForeground": "#ffc600",
     // Activity Bar
@@ -44,13 +44,14 @@
     "editor.background": "#282C34",
     "editor.foreground": "#B3BEC3",
     "editorLineNumber.foreground": "#B3BEC322",
+    "editorLineNumber.activeForeground": "#B3BEC366",
     "editorCursor.background": "#FFFFFF",
     "editorCursor.foreground": "#DDDDDD",
     // Selection colors are visible when selecting one or more characters. In addition to the selection also all regions with the same content are highlighted.
     "editor.selectionBackground": "#3E4451",
     "editor.selectionForeground": "#EEEEEE",
     "editor.inactiveSelectionBackground": "#3E4451AA",
-    "editor.selectionHighlightBackground": "#3E4451AA",
+    "editor.selectionHighlightBackground": "#3E445166",
     "editor.selectionHighlightBorder": "#3E4451AA",
     // Word highlight colors are visible when the cursor is inside a symbol or a word. Depending on the language support available for the file type, all matching references and declarations are highlighted and read and write accesses get different colors. If document symbol language support is not available, this falls back to word highlighting.
     "editor.wordHighlightBackground": "#ffffff0A",
@@ -119,14 +120,14 @@
     // Editor Widget Colors
     // The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
     "editorHoverWidget.background": "#21252B",
-    "editorHoverWidget.border": "#181A1F",
+    "editorHoverWidget.border": "#B3BEC333",
     "editorSuggestWidget.background": "#21252B",
     "editorSuggestWidget.border": "#181A1F",
-    "editorSuggestWidget.foreground": "#B3BEC3AA",
+    "editorSuggestWidget.foreground": "#B3BEC366",
     "editorSuggestWidget.highlightForeground": "#B3BEC3",
-    "editorSuggestWidget.selectedBackground": "#2C313A",
+    "editorSuggestWidget.selectedBackground": "#3E4451AA",
     "editorWidget.background": "#21252B",
-    "editorWidget.border": "#181A1F",
+    "editorWidget.border": "#B3BEC333",
     // Diff Editor Colors
     // For coloring inserted and removed text, use either a background or a border color but not both.
     "diffEditor.insertedTextBackground": "#11661166",
@@ -192,18 +193,6 @@
     "notifications.background": "#21252B",
     "notifications.border": "#528BFF",
     "notificationLink.foreground": "#528BFF",
-    // If you target VS Code versions before the 1.21 (February 2018) release, these are the old (no longer supported) colors:
-    "notification.background": "#21252B",
-    "notification.foreground": "#B3BEC3",
-    "notification.buttonBackground": "#528BFF",
-    "notification.buttonForeground": "#B3BEC3",
-    "notification.buttonHoverBackground": "#6087CF",
-    "notification.errorBackground": "#660000",
-    "notification.errorForeground": "#B3BEC3",
-    "notification.infoBackground": "#666666",
-    "notification.infoForeground": "#B3BEC3",
-    "notification.warningBackground": "#ffc60066",
-    "notification.warningForeground": "#B3BEC3",
     // Panel Colors
     // Panels are shown below the editor area and contain views like Output and Integrated Terminal.
     "panel.background": "#282C34",
